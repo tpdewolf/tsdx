@@ -34,6 +34,7 @@ const babelOptions = (
   plugins: [
     require.resolve('babel-plugin-annotate-pure-calls'),
     require.resolve('babel-plugin-dev-expression'),
+    require.resolve('babel-plugin-styled-components'),
     format !== 'cjs' && [
       require.resolve('babel-plugin-transform-rename-import'),
       { replacements },
